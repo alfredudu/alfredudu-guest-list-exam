@@ -6,7 +6,7 @@ var GuestService = {
 		$.ajax({
 			type: 'POST',
 			contentType: 'application/json',
-			url: 'api/guests',
+			url: 'api/guests/',
 			data: JSON.stringify(guest),
 			success: function(addedGuest) {
 				console.log('Guest created!');
